@@ -1,0 +1,226 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: #f7f8fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 720px;
+  margin: 40px auto;
+}
+
+.modern-form {
+  background: #eceef0;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px 0 rgb(207, 201, 201);
+  padding: 16px 0;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.professional-form {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px 0 rgb(207, 201, 201);
+  padding: 16px 0;
+  margin-top: 28px;
+  text-align: center;
+}
+
+.first-heading {
+  font-size: 20px;
+  color: blue;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.last-heading {
+  font-size: 20px;
+  color: green;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.form-container {
+  border-radius: 18px;
+  box-shadow: 0 16px 16px 0 rgb(207, 201, 201);
+  background: linear-gradient(to right, #e8c4f5 0%, #ffc0d0 100%);;
+}
+
+.form-heading {
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  background: linear-gradient(to right, #b706f3 0%, #ff87a6 100%);
+}
+
+.form-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+.form-details-container {
+  padding: 0 28px 32px 28px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 14px;
+  margin-top: 10px;
+}
+
+.input-group {
+  flex: 1;
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #0b090e;
+  font-weight: 500;
+}
+
+.label-text {
+  margin-right: 16px;
+  font-size: 16px;
+}
+
+.input-box,
+.select-box {
+  padding: 10px 13px;
+  border-radius: 7px;
+  border: 1px solid #dadada;
+  font-size: 16px;
+  background: #ffffff;
+  margin-bottom: 7px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.input-box:focus,
+.select-box:focus {
+  border-color: #b706f3;
+  outline: none;
+}
+
+.radio-btn,
+.checkbox-btn {
+  margin-right: 4px;
+}
+
+.address-box {
+  width: 100%;
+}
+
+.select-box {
+  cursor: pointer;
+}
+
+
+.radio-check {
+  margin: 0;
+  font-size: 14px;
+  color: #2a223b;
+}
+
+.hobbies-row {
+  margin-right: 24px;
+}
+
+.hobby-item {
+  display: flex;
+  align-items: center;
+  min-width: 25%;
+}
+
+.hobbies-check {
+  margin: 0;
+  font-size: 12px;
+  color: #1b142a;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.course-item {
+  color: #13062d; /* Adjust the text color for courses */
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 11px 26px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 6px;
+}
+
+.reset {
+  background: #ffffff;
+  color: #010715;
+  border: 1px solid #cccccc;
+}
+
+.reset:hover {
+  opacity: 0.7;
+}
+
+.submit {
+  background: linear-gradient(to right, #b600e4 40%, #ff339c 100%);
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+}
+
+.submit:hover {
+  opacity: 0.7;
+}
+
+/* Table styling for qualification section */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+td {
+  border: none;
+  padding: 9px 9px;
+  font-size: 14px;
+  color: #010715;
+  text-align: left;
+}
+
+th {
+  border: none;
+  padding: 9px 9px;
+  font-size: 14px;
+  color: #5b3a62;
+  text-align: left;
+  background: #f3f2f5;
+  font-weight: 600;
+}
