@@ -28,11 +28,11 @@
           <div class="row">
             <div class="input-group">
               <label class="label-text" for="firstname">First Name</label>
-              <input type="text" id="firstname" class="input-box" placeholder="Enter first name" />
+              <input type="text" id="firstname" name="firstname" class="input-box" placeholder="Enter first name" />
             </div>
             <div class="input-group">
               <label class="label-text" for="secondname">Last Name</label>
-              <input type="text" id="secondname" class="input-box" placeholder="Enter last name" />
+              <input type="text" id="secondname" name="lastname" class="input-box" placeholder="Enter last name" />
             </div>
           </div>
 
@@ -41,8 +41,8 @@
             <label class="label-text">Date of Birth</label>
             <div class="row">
               <div class="input-group">
-                <select class="select-box">
-                  <option>Day</option>
+                <select name="dob-day" class="select-box">
+                  <option name="day">Day</option>
                   <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
                   <option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
                   <option>11</option><option>12</option><option>13</option><option>14</option><option>15</option>
@@ -52,7 +52,7 @@
                 </select>
               </div>
               <div class="input-group">
-                <select class="select-box">
+                <select name="month" class="select-box">
                   <option>Month</option>
                   <option>January</option><option>February</option><option>March</option>
                   <option>April</option><option>May</option><option>June</option><option>July</option>
@@ -60,7 +60,7 @@
                 </select>
               </div>
               <div class="input-group">
-                <select class="select-box">
+                <select name="year" class="select-box">
                   <option>Year</option>
                   <option>1995</option><option>1996</option><option>1997</option>
                   <option>1998</option><option>1999</option><option>2000</option>
@@ -74,11 +74,11 @@
           <div class="row">
             <div class="input-group">
               <label class="label-text" for="email">Email ID</label>
-              <input type="email" id="email" class="input-box" placeholder="Enter email address" />
+              <input type="email" id="email" name="email" class="input-box" placeholder="Enter email address" />
             </div>
             <div class="input-group">
               <label class="label-text" for="mobile">Mobile Number</label>
-              <input type="text" id="mobile" class="input-box" placeholder="Enter 10-digit mobile number" />
+              <input type="text" id="mobile" name="mobilenumber" class="input-box" placeholder="Enter 10-digit mobile number" />
             </div>
           </div>
 
@@ -100,33 +100,33 @@
           <!-- Address -->
           <div class="input-group">
             <label class="label-text" for="address">Address</label>
-            <textarea id="address" rows="3" class="input-box address-box" placeholder="Enter your full address"></textarea>
+            <textarea id="address" rows="3" name="address" class="input-box address-box" placeholder="Enter your full address"></textarea>
           </div>
 
           <!-- City, PIN, State -->
           <div class="row">
             <div class="input-group">
               <label class="label-text" for="city">City</label>
-              <input type="text" id="city" class="input-box" placeholder="Enter city" />
+              <input type="text" id="city" name="city" class="input-box" placeholder="Enter city" />
             </div>
             <div class="input-group">
               <label class="label-text" for="pincode">PIN Code</label>
-              <input type="text" id="pincode" class="input-box" placeholder="Enter 6-digit PIN code" />
+              <input type="text" id="pincode" name="pincode" class="input-box" placeholder="Enter 6-digit PIN code" />
             </div>
             <div class="input-group">
               <label class="label-text" for="state">State</label>
-              <input type="text" id="state" class="input-box" placeholder="Enter state" />
+              <input type="text" id="state" name="state" class="input-box" placeholder="Enter state" />
             </div>
           </div>
 
           <!-- Country -->
           <div class="input-group">
             <label class="label-text" for="country">Country</label>
-            <select id="country" class="select-box">
-              <option>Select country</option>
-              <option>India</option>
-              <option>USA</option>
-              <option>Canada</option>
+            <select id="country" name="country" class="select-box">
+              <option value="">Select country</option>
+              <option value="india">India</option>
+              <option value="usa">USA</option>
+              <option value="canada">Canada</option>
             </select>
           </div>
 
@@ -136,23 +136,23 @@
             <div class="row hobbies-row">
               <div class="hobby-item">
                 <input type="checkbox" class="checkbox-btn" id="drawing"/>
-                <label for="drawing" class="hobbies-check">Drawing</label>
+                <label for="drawing" name="hobby" class="hobbies-check" value="drawing">Drawing</label>
               </div>
               <div class="hobby-item">
                 <input type="checkbox" class="checkbox-btn" id="singing"/>
-                <label for="singing" class="hobbies-check">Singing</label>
+                <label for="singing" name="hobby" class="hobbies-check" value="singing">Singing</label>
               </div>
               <div class="hobby-item">
                 <input type="checkbox" class="checkbox-btn" id="dancing"/>
-                <label for="dancing" class="hobbies-check">Dancing</label>
+                <label for="dancing" name="hobby" class="hobbies-check" value="dancing">Dancing</label>
               </div>
               <div class="hobby-item">
                 <input type="checkbox" class="checkbox-btn" id="sketching"/>
-                <label for="sketching" class="hobbies-check">Painting</label>
+                <label for="sketching" name="hobby" class="hobbies-check" value="painting">Painting</label>
               </div>
               <div class="hobby-item">
                 <input type="checkbox" class="checkbox-btn" id="others"/>
-                <label for="others" class="hobbies-check">Others</label>
+                <label for="others" name="hobby" class="hobbies-check" value="others">Others</label>
               </div>
             </div>
           </div>

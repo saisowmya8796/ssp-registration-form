@@ -120,6 +120,7 @@ label {
 
 .address-box {
   width: 100%;
+  resize: none;
 }
 
 .select-box {
@@ -145,7 +146,7 @@ label {
 
 .hobbies-check {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   color: #1b142a;
 }
 
@@ -156,7 +157,7 @@ label {
 }
 
 .course-item {
-  color: #13062d; /* Adjust the text color for courses */
+  color: #13062d;
   font-size: 16px;
 }
 
@@ -199,7 +200,7 @@ button {
   opacity: 0.7;
 }
 
-/* Table styling for qualification section */
+/* Table styling */
 table {
   width: 100%;
   border-collapse: collapse;
